@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  padding: 15px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  padding: 5px 0;
+}
+
+#searchSubmit {
+  margin-top: 10px;
+}
+
+#incompleteBookList, #completeBookList {
+  padding: 10px;
+}
+
+[data-testid="bookItem"] {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+[data-testid="bookItem"] h3 {
+  margin: 0;
+  color: #333;
+}
+
+[data-testid="bookItem"] p {
+  margin: 5px 0;
+  color: #666;
+}
+
+[data-testid="bookItem"] div {
+  display: flex;
+  gap: 10px;
+}
+
+[data-testid="bookItem"] button {
+  flex: 1;
+}
